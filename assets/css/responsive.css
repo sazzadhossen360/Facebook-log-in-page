@@ -1,0 +1,74 @@
+/* Medium Layout: 1280px. */
+@media only screen and (max-width: 980px) { 
+    .logo-area{
+        width:100%;
+        float: none;
+        text-align: center;
+    }
+    .logo-in-area{
+        width:100%;
+        float:none;
+        margin: 15px auto;
+       
+    }
+    .logo-in-area form{
+        float:none;
+        
+    }
+    .left-area{
+        float: none;;
+        width:100%;
+    }
+    .right-area{
+        float: none;
+        width:100%;
+    }
+    .left-area p{
+        width:100%;
+    }
+    .Gender{
+        overflow: hidden;
+        width:68%;
+    }
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width:768px) { 
+    .logo-in-area .email,
+    .logo-in-area .password,
+    .logo-in-area .submit{
+            float: none;
+            margin-right: 0;
+       }
+       .logo-in-area input[type="text"],
+       .logo-in-area input[type="password"]{
+            width: 100%;
+            box-sizing: border-box;
+      }
+
+       .logo-in-area input[type="submit"] {
+             margin-top: 10px; 
+      }
+
+      
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (max-width: 768px){ 
+        .container{
+            width:80%;
+        }   
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 480px) { 
+    .Gender{
+        overflow: hidden;
+        width:100%;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
